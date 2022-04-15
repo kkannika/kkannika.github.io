@@ -1,286 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0" />
+<head>
+  <title> KANNIKA KHONGPAN - Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-<!-- icon -->
-        <link href='https://unpkg.com/boxicons@latest/css/boxicons.min.css' rel='stylesheet'>
-        <link href='href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css' rel='stylesheet'>
+<!-- overlay start-->
+<div class="overlay">
 
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <title>KANNIKA KHONGPAN</title>
-    </head>
-    <body>
+</div>
+<!-- overlay end-->
 
-<!-- header -->
+<!-- main start -->
+<div class="main">
 
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Kannika</a>
-                </div>
+  <!-- header start -->
+  <header class="header">
+    <div class="container">
+      <div class="row flex-end">
+        <button type="button" class="nav-toggler">
+          <span></span>
+        </button>
+        <nav class="nav">
+          <div class="nav-inner">
+            <ul>
+              <li><a href="#home" class="nav-item link-item">home</a></li>
+              <li><a href="#about" class="nav-item link-item">about</a></li>
+              <li><a href="#projects" class="nav-item link-item">projects</a></li>
+              <li><a href="#contact" class="nav-item link-item">contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- header end -->
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-
-<!-- home -->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                <br>
-                    <h1 class="home__title">Hello,<br>I am <span class="home__title-color"> Kannika Khongpan, &emsp; </span><br> Software Engineer.</h1>
-                   <br>
-                   <br>
-                    <!-- resume button -->
-                    <a class="button" href="assets/kannikaresume.pdf" target="_blank">DOWNLOAD MY RESUME</a>
-                </div>
-                <br>
-            </section>
-
-<!-- about -->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about.png" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I am <span class="about__namesubtitle">Kannika Khongpan</span></h2>
-                        <br>
-                        <p class="about__text"> &emsp14; &emsp14; &emsp14; &emsp14; I have extensive experience in technical services support and the educational system. My passion for software development began after I received a Working and Holiday visa in Australia and was stuck in the city due to the Covid-19 situation, which inspired me to attend the online coding Bootcamp. My first coding class taught me that software development perfectly balances analytical thinking, problem-solving, and creative exploration. I can apply everything that I have learned and looking forward to developing more intuitive tools as a software engineer.</p>           
-                    </div>                                   
-                </div>
-                <br>
-                <br>
-               
-                <!-- experience-->
-                <div class="about__container bd-grid">
-                    <h2 class="section-title">Experience</h2>
-
-                    <div>
-                        <h2 class="sub__namesubtitle">Overseas Procurement Analyst<span class="sub__subtitle"><br>PSD Color Way</span></h2>
-                        <p class="sub__text">Jun 2021 - Dec 2021</p>           
-                        <br><br>
-                        <h2 class="sub__namesubtitle">Technical Services Assistant<span class="sub__subtitle"><br>Tetra Pak</span></h2>
-                        <p class="sub__text">Mar 2018 - Aug 2020</p> 
-                        <br><br>
-                        <h2 class="sub__namesubtitle">English Language Teacher<span class="sub__subtitle"><br>Ratchaborika Nukroh School</span></h2>
-                        <p class="sub__text">Mar 2017 - Mar 2018</p>           
-                    </div>                                   
-                </div>
-                <br><br><br>    
-
-                <!-- certificate -->
-                <div class="about__container bd-grid">
-                    <h2 class="section-title">Certifications</h2>
-                    
-                    <div>
-                        <h2 class="sub__namesubtitle">IBM Full Stack Cloud Developer<span class="sub__subtitle"><br>IBM</span></h2>
-                        <br>
-                        <h2 class="sub__namesubtitle">Google IT Support<span class="sub__subtitle"><br>Google</span></h2>                     
-                    </div>                                   
-                </div>
-                <br><br><br>    
-
-             <!-- education -->
-             <div class="about__container bd-grid">
-                <h2 class="section-title">Education</h2>
-                <div>
-                    <h2 class="sub__namesubtitle">Software Engineering Bootcamp<span class="sub__subtitle"><br>Codestar</span></h2>
-                    <p class="sub__text"> A coding bootcamp with Java and Javascript-based curriculum that concentrates on developing proficiency in technologies.</p>           
-                    <br><br>
-                    <h2 class="sub__namesubtitle">General English<span class="sub__subtitle"><br>Lonsdale Institute</span></h2>
-                    <p class="sub__text"> Upper Intermediate Level Certifications</p> 
-                    <br><br>
-                    <h2 class="sub__namesubtitle">Bachelor of Art in English<span class="sub__subtitle"><br>Suan Sunandha Rajabhat University</span></h2>
-                    <p class="sub__text"> Focus on Linguistics and Literature </p>            
-                </div> 
+  <!-- home section start-->
+  <section class="home-section align-items-center active" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="home-text">
+          <p> Hello, I am</p>
+          <h1>kannika khongpan</h1>
+          <h2>software engineer</h2>
+          <a href="#about" class="btn link-item">about me</a>
+          <a href="kannikaresume.pdf" target="_blank" class="btn">my resume</a>
+        </div>
+          <div class="home-img">
+            <div class="img-box">
+              <img src="img/about-img.png" alt="about-img">
             </div>
-        </section>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- home section end -->
 
-<!-- skills -->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
+  <!-- about section start -->
+  <section class="about-section sec-padding" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>about me</h2>
 
-                <div class="skills__container bd-grid">   
+        </div>
+      </div>
+      <div class="row">
+        <div class="about-img">
+          <div class="img-box">
+            <img src="img/about-img.png" alt="about img">
+          </div>
+        </div>
+        <div class="about-text">
+          <p> I have extensive experience in technical services support and the educational system. My passion for software development began after I received a Working and Holiday visa in Australia and was stuck in the city due to the Covid-19 situation, which inspired me to attend the online coding Bootcamp. My first coding class taught me that software development perfectly balances analytical thinking, problem-solving, and creative exploration. I can apply everything that I have learned and looking forward to developing more intuitive tools as a software engineer.</p>
+          <h3>skills</h3>
+          <div class="skills">
+            <div class="skill-item">java</div>
+            <div class="skill-item">javaScript</div>
+            <div class="skill-item">HTML5</div>
+            <div class="skill-item">CSS3</div>
+            <div class="skill-item">bootstap 5</div>
+            <div class="skill-item">spring boot</div>
+            <div class="skill-item">maven</div>
+            <div class="skill-item">mySQL</div>
+            <div class="skill-item">mongoDB</div>
+            <div class="skill-item">express</div>
+            <div class="skill-item">react</div>
+            <div class="skill-item">node</div>
+            <div class="skill-item">github</div>
+          </div>
 
-                <!-- left -->       
-                    <div>
-                        <div class="skills__container bd-grid">   
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='bx bxl-java skills__icon'></i>
-                                    <span class="skills__name">&emsp13; &emsp13; &emsp13; Java</span>
-                                </div>
-                            </div>
-                            
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='bx bxl-javascript skills__icon'></i>
-                                    <span class="skills__name">&emsp13; &emsp13; &emsp13; JavaScript</span>
-                                </div>
-                            </div>
-                            
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='bx bxl-spring-boot skills__icon'></i>
-                                    <span class="skills__name">&emsp13; &emsp13; &emsp13; Spring Boot</span>
-                                </div>
-                            </div>
-                            
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='skills__icon'>
-                                        <img height="32" width="32" src="https://unpkg.com/simple-icons@v3/icons/apachemaven.svg" />
-                                    </i>
-                                    <span class="skills__name">&emsp13; &emsp13; &emsp13; Maven</span>
-                                </div>
-                            </div>
+          <div class="about-tabs">
+            <button type="button" class="tab-item active" data-target="#experience">experience</button>
+            <button type="button" class="tab-item" data-target="#education">education</button>
+            <button type="button" class="tab-item" data-target="#certification">certifications</button>
+          </div>
 
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='bx bxl-nodejs skills__icon' ></i>
-                                    <span class="skills__name">&emsp13; &emsp13; &emsp13; Node</span>
-                                </div>
-                            </div>
-                            
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='skills__icon'>
-                                        <img height="32" width="32" src="https://unpkg.com/simple-icons@v3/icons/mysql.svg" />
-                                    </i>
-                                    <span class="skills__name">&emsp13; &emsp13; &emsp13; MySQL</span>
-                                </div>
-                            </div>
-                            
-                    </div>
-                    </div>
-
-                    <!-- right -->
-                    <div>
-                        <div class="skills__container bd-grid">   
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='bx bxl-html5 skills__icon'></i>
-                                    <span class="skills__name">&emsp13; &emsp13; &emsp13; HTML5</span>
-                                </div>
-                            </div>
-                            
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='bx bxl-css3 skills__icon'></i>
-                                    <span class="skills__name">&emsp13; &emsp13; &emsp13; CSS3</span>
-                                </div>
-                            </div>
-                            
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='skills__icon'>
-                                        <img height="250" width="40" src= "https://admin.springsapps.com/uploads/b8be6ab92de3453badd84e3fa62bf0a2.svg" />
-                                    </i>
-                                    <span class="skills__name">&emsp13; &emsp13; &emsp13; Express</span>
-                                </div>
-                            </div>
-
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='bx bxl-react skills__icon'></i>
-                                    <span class="skills__name"> &emsp13; &emsp13; &emsp13; React</span>
-                                </div>
-                            </div>
-                            
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='bx bxl-mongodb skills__icon' ></i>
-                                    <span class="skills__name">&emsp13; &emsp13; &emsp13; MongoDB</span>
-                                </div>
-                            </div>
-                            
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <i class='bx bxl-github skills__icon'></i>
-                                    <span class="skills__name"> &emsp13; &emsp13; &emsp13; GitHub</span>
-                                </div>
-                            </div>
-                            
-                    </div>
-                    </div>
-            </section>
-
-<!-- projects -->
-            <section class="projects section" id="projects">๋
-                <h2 class="section-title">Projects</h2>
-
-                <h2 class="sub__namesubtitle" style="text-align: center;">UPLOADING.....</h2>
-
-                <div class="pro__container bd-grid">
-                    <a href="https://github.com/kkannika" class="pro__img">
-                        <img src="assets/img/project.jpg" alt="">
-                    </a>
-                    <a href="https://github.com/kkannika" class="pro__img">
-                        <img src="assets/img/project.jpg" alt="">
-                    </a>
-                    <a href="https://github.com/kkannika" class="pro__img">
-                        <img src="assets/img/project.jpg" alt="">
-                    </a>
-                        
-                    <a href="https://github.com/kkannika" class="pro__img">
-                        <img src="assets/img/project.jpg" alt="">
-                    </a>
-                    <a href="https://github.com/kkannika" class="pro__img">
-                        <img src="assets/img/project.jpg" alt="">
-                    </a>
-                    <a href="https://github.com/kkannika" class="pro__img">
-                        <img src="assets/img/project.jpg" alt="">
-                    </a>
-                </div>
-            </section>
-
-<!-- contact -->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact me</h2>
-
-                <div class="contact__container bd-grid">
-                    <h2 class="contact__text">If you are interested in hiring me, <br>please send me an email with some information about your requirements.<br>I will get back to you as soon as I can.</h2>
-                    <br>
-                        <a href="mailto:khongpan.kannika@gmail.com" class="contact__button button">SEND ME AN EMAIL</a>
-                        <br><br>
-                 </div>
-            </section>
-        </main>
-
-<!-- footer -->
-        <footer class="footer">
-            <div class="footer__social">
-                <a href="https://www.linkedin.com/in/kannikakhongpan" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
-                <a href="https://github.com/kkannika/kkannika.github.io.git" class="footer__icon"><i class='bx bxl-github' ></i></a> 
-                <br>
-                <p class="footer__copy"> Kannika Khongpan</p>
+          <!-- experience start-->
+          <div class="tab-content active" id="experience">
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="date">Jun 2021 - Dec 2022</span>
+                <h4>Overseas Procurement Analyst</h4>
+                <p>PSD Color Way</p>
+              </div>
+              <div class="timeline-item">
+                <span class="date">Mar 2018 - Aug 2020</span>
+                <h4>Technical Services Assistant</h4>
+                <p>Tetra Pak</p>
+              </div>
+              <div class="timeline-item">
+                <span class="date">Mar 2017 - Mar 2018</span>
+                <h4>English Language Teacher</h4>
+                <p>Ratchaborika Nukroh School</p>
+              </div>
             </div>
-        </footer>
+          </div>
+          <!-- experience end-->
 
+          <!-- education start-->
+          <div class="tab-content" id="education">
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="course">Software Engineering Bootcamp</span>
+                <span class="school">codestar, bangkok.</span>
+                <h5>A coding bootcamp with Java and Javascript-based curriculum that concentrates on developing proficiency in technologies.</h5>
+              </div>
+              <div class="timeline-item">
+                <span class="course">General English Course</span>
+                <span class="school">lonsdale institute, melbourne.</span>
+                <h5>Upper Intermediate Level Certification <br>with Professional Working Proficiency</h5>
+              </div>
+              <div class="timeline-item">
+                <span class="course">Bachelor of Art in English</span>
+                <span class="school">suan sunandha rajabhat university</span>
+                <h5>Focus on Linguistics and Literature</h5>
+              </div>
+            </div>
+          </div>
+          <!-- education end-->
 
-<!-- scroll reveal -->
-        <script src="https://unpkg.com/scrollreveal"></script>
+           <!-- certification start-->
+           <div class="tab-content" id="certification">
+            <div class="timeline-cert">
+              <div class="timeline-item-cert">
+                <span class="course">The Complete 2022 Web Development Bootcamp</span>
+                <span class="school">Dr. Angela Yu, London App Brewery (Udemy)</span>
+              </div>
+              <div class="timeline-item-cert">
+                <span class="course">IBM Full Stack Cloud Developer</span>
+                <span class="school">IBM (Coursera)</span>
+              </div>
+              <div class="timeline-item-cert">
+                <span class="course">Google IT Support Specialization</span>
+                <span class="school">Google (Coursera)</span>
+              </div>
+            </div>
+          </div>
+          <!-- certificate end-->
 
-<!-- js -->
-        <script src="assets/js/main.js"></script>
-    </body>
+          <a href="kannikaresume.pdf" target="_blank" class="btn"> download my resume</a>
+          <a href="#contact" class="btn link-item">contact me</a>
+       
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about section end -->
+
+  <!-- portfolio section start -->
+  <section class="portfolio-section sec-padding" id="projects">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>projects</h2>
+        </div>
+      </div>
+      <div class="row">
+        <!-- project item start 1 -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/personalweb.png" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title">Personal website</h3>
+          <button type="button" class="btn view-project-btn">view my project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>Personal website on GitHub domain including my portfolio and projects which are made by Javascript, HTML and CSS.</p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>technology use - <span> Javascript HTML CSS</span></li>
+                <li>Role - <span> Frontend </span> </li>
+                <li>View online - <span> <a href="https://kkannika.github.io" target="_blank">kkannika.github.io</a></span> </li>
+              </ul> 
+            </div>
+          </div>
+        </div>
+         <!-- project item end 1 -->
+
+         <!-- project item start 2 -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/project.jpg" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title"> project2
+
+          </h3>
+          <button type="button" class="btn view-project-btn">view my project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>in progress</p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>technology use - <span> in progress</span></li>
+                <li>Role - <span> in progress </span> </li>
+                <li>View online - <span> <a href="#" target="_blank">www.github.com/kkannika</a></span> </li>
+              </ul> 
+            </div>
+          </div>
+        </div>
+         <!-- project item end 2 -->
+
+         <!-- project item start 3 -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/project.jpg" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title"> project3</h3>
+          <button type="button" class="btn view-project-btn">view my project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>in progress</p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>technology use - <span> in progress</span></li>
+                <li>Role - <span> in progress </span> </li>
+                <li>View online - <span> <a href="#" target="_blank">www.github.com/kkannika</a></span> </li>
+              </ul> 
+            </div>
+          </div>
+        </div>
+         <!-- project item end 3 -->
+
+         <!-- project item start 4 -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/project.jpg" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title"> project4</h3>
+          <button type="button" class="btn view-project-btn">view my project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>in progress</p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>technology use - <span> in progress</span></li>
+                <li>Role - <span> in progress </span> </li>
+                <li>View online - <span> <a href="#" target="_blank">www.github.com/kkannika</a></span> </li>
+              </ul> 
+            </div>
+          </div>
+        </div>
+         <!-- project item end 4 -->
+
+         <!-- project item start 5 -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/project.jpg" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title"> project5</h3>
+          <button type="button" class="btn view-project-btn">view my project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>in progress</p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>technology use - <span> in progress</span></li>
+                <li>Role - <span> in progress </span> </li>
+                <li>View online - <span> <a href="#" target="_blank">www.github.com/kkannika</a></span> </li>
+              </ul> 
+            </div>
+          </div>
+        </div>
+         <!-- project item end 5 -->
+
+         <!-- project item start 6 -->
+        <div class="portfolio-item">
+          <div class="portfolio-item-thumbnail">
+            <img src="img/portfolio/project.jpg" alt="portfolio item thumb">
+          </div>
+          <h3 class="portfolio-item-title"> project6</h3>
+          <button type="button" class="btn view-project-btn">view my project</button>
+          <div class="portfolio-item-details">
+            <div class="description">
+              <p>in progress</p>
+            </div>
+            <div class="general-info">
+              <ul>
+                <li>technology use - <span> in progress</span></li>
+                <li>Role - <span> in progress </span> </li>
+                <li>View online - <span> <a href="#" target="_blank">www.github.com/kkannika</a></span> </li>
+              </ul> 
+            </div>
+          </div>
+        </div>
+         <!-- project item end 6 -->
+        
+      </div>
+    </div>
+  </section>
+  <!-- project section end -->
+
+  <!-- contact section start -->
+<section class="contact-section sec-padding" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>contact me</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="contact-form">
+        <form action="mailto:khongpan.kannika@gmail.com" method="post" enctype="text/plain">
+          <div class="row">
+            <div class="input-group">
+              <input type="text" placeholder="Name" class="input-control" required>
+            </div>
+            <div class="input-group">
+              <input type="text" placeholder="Email" class="input-control" required>
+            </div>
+            <div class="input-group">
+              <input type="text" placeholder="Subject" class="input-control" required>
+            </div>
+            <div class="input-group">
+              <textarea placeholder="!!!!! for now cannot send via this contact form !!!!! please send me by email, thanks." class="input-control" required></textarea>
+            </div>
+            <div class="submit-btn">
+              <button type="submit" class="btn">send message</button>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="contact-info">
+          <h4>If you are interested in hiring me, please send me an email with some information about your requirements.<br> I will get back to you as soon as I can.</h4>
+        <div class="contact-info-item">
+          <h3>Email</h3>
+          <p>khongpan.kannika@gmail.com</p>
+        </div>
+        <div class="contact-info-item">
+          <h3>Phone</h3>
+          <p>(66) 65 989 7887</p>
+        </div>
+        <div class="contact-info-item">
+          <h3>connect me</h3>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/kannikakhongpan/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/kkannika" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="mailto:khongpan.kannika@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- contact section end -->
+
+</div>
+<!-- main end -->
+
+<!-- portfolio item detail popup start -->
+<div class="portfolio-popup">
+  <div class="pp-inner">
+    <div class="pp-content">
+      <div class="pp-header">
+        <button type="button" class="btn pp-close"><i class="fas fa-times"></i></button>
+        <div class="pp-thumbnail">
+          <img src="img/portfolio/3.jpg" alt="pp-thumbnail">
+        </div>
+        <h3></h3>
+      </div>
+      <div class="pp-body">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- portfolio item detail popup end -->
+
+  
+<script src="js/script.js"></script>
+</body>
 </html>
