@@ -916,4 +916,10 @@ header.active{
     .pp-header h3{
         font-size: 20px;
     }
+    .contact-info h4{
+        padding: 0;
+    }
+    .about-tabs .btn .link-item{
+        margin-top: 15px;
+    }
 }
