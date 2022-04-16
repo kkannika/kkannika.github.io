@@ -916,10 +916,14 @@ header.active{
     .pp-header h3{
         font-size: 20px;
     }
+
+@media(max-width:450px){
     .contact-info h4{
         padding: 0;
     }
-    .about-tabs .btn .link-item{
+    .about-tabs .btn{
         margin-top: 15px;
+        align-items: center;
     }
+}
 }
