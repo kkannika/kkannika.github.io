@@ -331,22 +331,26 @@
     </div>
     <div class="row">
       <div class="contact-form">
-        <form action="mailto:khongpan.kannika@gmail.com" method="post" enctype="text/plain">
+        <form id="form">
           <div class="row">
             <div class="input-group">
-              <input type="text" placeholder="Name" class="input-control" required>
+              <label for="name"></label>
+              <input type="text" name="name" id="name" placeholder="Name" class="input-control" required>
             </div>
             <div class="input-group">
-              <input type="text" placeholder="Email" class="input-control" required>
+              <label for="email"></label>
+              <input type="text" name="email" id="email" placeholder="Email" class="input-control" required>
             </div>
             <div class="input-group">
-              <input type="text" placeholder="Subject" class="input-control" required>
+              <label for="subject"></label>
+              <input type="text" name="subject" id="subject" placeholder="Subject" class="input-control" required>
             </div>
             <div class="input-group">
-              <textarea placeholder="!!!!! please send me by email instead, thanks in advance !!!!!" class="input-control" required></textarea>
+              <label for="message"></label>
+              <textarea name="message" id="message" placeholder="Message" class="input-control" required></textarea>
             </div>
             <div class="submit-btn">
-              <button type="submit" class="btn">send message</button>
+              <button type="submit" class="btn" id="button" value="send message">send message</button>
             </div>
           </div>
         </form>
@@ -374,6 +378,15 @@
   </div>
 </section>
   <!-- contact section end -->
+
+<!-- script start -->
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('BIeKZiPe9d68few6v')
+</script>
+<!-- script end -->
 
 </div>
 <!-- main end -->

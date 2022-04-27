@@ -87,3 +87,27 @@ document.addEventListener("click", (e) => {
         },500);
     }
 });
+
+
+// send message form
+
+const btn = document.getElementById('button');
+
+document.getElementById('form')
+.addEventListener('submit', function(event) {
+  event.preventDefault();
+
+  btn.value = 'Sending...';
+
+  const serviceID = 'service_4v1g65c';
+  const templateID = 'template_o1rtuuz';
+
+  emailjs.sendForm(serviceID, templateID, this)
+   .then(() => {
+     btn.value = 'send message';
+     alert('Sent! I will get back to you soon.');
+   }, (err) => {
+     btn.value = 'send messgae';
+     alert('! failed, try again !');
+   });
+});
