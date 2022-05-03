@@ -922,7 +922,7 @@ header.active{
         padding: 0;
     }
     .about-tabs .btn{
-        margin-top: 15px;
+        margin: 0 7px 15px;
         align-items: center;
     }
 }
